@@ -1,0 +1,3 @@
+SELECT U.idUser, nom, telephone, COUNT(S.idScan) AS scan, (COUNT(S.idScan)*400) AS merite FROM utilisateurs U, scan S, qr_codes Q WHERE S.idCode = Q.idCode AND S.idUser = U.idUser AND S.valider = 0 GROUP BY S.idUser ORDER BY COUNT(S.idScan) DESC
+
+UPDATE scan SET valider = 1 WHERE idUser = CAST(? AS INT)
