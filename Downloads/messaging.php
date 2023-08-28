@@ -1,7 +1,6 @@
 <?php
 
 
-define('API_ACCESS_KEY', 'AAAAD7GLw34:APA91bENSfPzGU9i-nmvglxrQdmecrmoneOsjA_wGc-ndcz3phQ43SnwH_E8yOqkRWA2ggQiZ_mqT2Pmj9CG1KBprTLs_7_blUaErtl3L5qYVy_Z5mYTyconXJMP6uk4pHCTtYr9Mwpp');
 
 $fcmUrl = "https://fcm.googleapis.com/fcm/send";
 
